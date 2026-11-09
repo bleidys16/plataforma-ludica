@@ -8,7 +8,7 @@ estrellas según los aciertos; el estudiante puede repetirla para mejorar su res
 - **Aprendiz:** Bleidys Paola Larios Torregrosa
 - **Curso:** Lógica y programación
 - **Mecánica:** Estrellas
-- **Aplicación publicada:** pendiente de despliegue en Render (`URL_PUBLICA` está vacía)
+- **Aplicación publicada:** https://plataforma-ludica-xe2a.onrender.com
 
 La plantilla actual expone la página de inicio, el estado del servicio y la documentación
 de la API. El registro de estudiantes, actividades, intentos y estrellas es el siguiente
