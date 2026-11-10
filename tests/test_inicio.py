@@ -22,6 +22,12 @@ def test_salud_responde_ok():
     assert respuesta.json() == {"estado": "ok"}
 
 
+def test_api_devuelve_la_version_de_la_aplicacion():
+    respuesta = cliente.get("/api/version")
+    assert respuesta.status_code == 200
+    assert respuesta.json() == {"version": proyecto.VERSION}
+
+
 def test_api_devuelve_los_datos_del_proyecto():
     respuesta = cliente.get("/api/proyecto")
     assert respuesta.status_code == 200
